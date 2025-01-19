@@ -111,8 +111,6 @@ body{
 /* REVIEWS */
 
 .reviewbar{
-    position: relative;
-    top: 25px;
     margin-top: 50px;
     height: 40px;
     color: rgb(23, 5, 5);
