@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxenest Interiors</title>
+    <link rel="shortcut icon" href="./Asset/logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,17 +13,17 @@
     <!--  NavBar -->
     <nav>
         <ul class="navbar">
-            <li><a class="navitems" href="">Home</a></li>
-            <li><a class="navitems" href="">Services</a></li>
-            <li><a class="navitems" href="">About Us</a></li>
-            <li><a class="navitems" href="">Contact Us</a></li>
-            <li><a class="navitems" href="">Reviews</a></li>
+            <li><a class="navitems" href="#">Home</a></li>
+            <li><a class="navitems" href="#">Services</a></li>
+            <li><a class="navitems" href="#">About Us</a></li>
+            <li><a class="navitems" href="#reviewbox">Reviews</a></li>
+            <li><a class="navitems" href="#contact">Contact Us</a></li>
         </ul>
     </nav>
 
     <!-- Front image and logo and punchline -->
     <div class="frontlook">
-        <div><img id="logo" src="/Asset/logo.webp" alt="Logo"></div>
+        <div><img id="logo" src="./Asset/logo.webp" alt="Logo"></div>
         <div class="fronttext">
             <p> Where Design Meets Innovation</p>
             <br>
@@ -53,11 +54,12 @@
                 stunning but also functional and enduring. At Luxenext, we go above and beyond to transform your vision
                 into a masterpiece, making us the trusted partner for all your interior design needs.</p>
         </div>
-        <div><img id="side_img" src="/Asset/side_img.jpg" alt=""></div>
+        <div><img id="side_img" src="./Asset/side_img.jpg" alt=""></div>
     </main>
 
     <!-- Customer Reviews -->
     <br>
+    <div id="reviewbox">
     <div class="reviewbar"> CUSTOMER REVIEWS</div>
     <br>
     <div id="reviewflex">
@@ -99,27 +101,32 @@
         </div>
 
     </div>
+</div>
 
 
     <!-- Footer Section social media -->
-    <footer class="social">
+    <footer class="social" id="contact">
+        <div class="footertitle">CONTACT US.</div>
         <ul class="socialmedia">
-            <li style="color: black" class="handles"><u>Follow Us On :</u></li>
-            <li><a class="handles" href=""> <span>YouTube &nbsp;<img width=30px" height="25px" src="/Asset/yt.png"
-                            alt=""></span></a></li>
-            <li><a class="handles" href=""><span>Instagram &nbsp;<img width="40px" height="25px" src="/Asset/insta.png"
-                            alt=""></span></a></li>
-            <li><a class="handles" href=""><span>Facebook &nbsp;<img width="30px" height="25px" src="/Asset/fb.png"
-                            alt=""></span></a></li>
-            <li><a class="handles" href=""><span>Twitter &nbsp;<img width="40px" height="35px" src="/Asset/twitter.png"
-                            alt=""></span></a></li>
+
+            <li><a class="handles" href="#"><img width=25px" height="25px" src="./Asset/yt.png" alt="minilogo"> YouTube
+                </a></li>
+            <li><a class="handles" href="#"><img width="25px" height="25px" src="./Asset/insta.png" alt="minilogo">
+                    Instagram </a></li>
+            <li><a class="handles" href="#"><img width="25px" height="25px" src="./Asset/fb.png" alt="minilogo">
+                    Facebook</a></li>
+            <li><a class="handles" href="#"><img width="25px" height="25px" src="./Asset/twitter.png" alt="minilogo">
+                    Twitter</a></li>
         </ul>
 
         <ul class="contactdetails">
             <li>+91855461XX</li>
             <li>interiors@luxenext.com</li>
-            <li><a id="requestlink" href="">Request A Call</a></li>
         </ul>
+        
+        <div>
+            <a id="requestlink" href="">Request A Call</a>
+        </div>
 
     </footer>
 
