@@ -1,5 +1,5 @@
 
-## About
+# About
 * It is a pure HTML and CSS based landing page.
 * It is representing an interior design company.
 * I used here many CSS properties and used external fonts for better looks.
