@@ -303,3 +303,15 @@ body {
 #requestlink:hover {
   box-shadow: 0px 0px 10px rgb(238, 147, 35);
 }
+
+/* COPYRIGHT CLAIM */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(124, 241, 241, 0.923);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: 700;
+}
+
