@@ -54,9 +54,6 @@
   /* Main content adjustments */
   .details {
     flex-direction: column;
-    padding-top: 2vh; 
-    padding-left: 5vw;
-    padding-right: 5vw;
   }
 
   .bodytext{
@@ -122,7 +119,7 @@
   }
 
   #requestlink {
-    font-size: 14px; /* Further reduced font size for very small screens */
+    font-size: 12px; /* Further reduced font size for very small screens */
   }
 }
 
