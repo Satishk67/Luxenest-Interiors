@@ -31,9 +31,7 @@
 }
 
 /* Media Queries for Responsiveness */
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-  /* Navbar adjustments */
 
   .navitems {
     margin: 4px;
@@ -61,6 +59,10 @@
     padding-right: 5vw;
   }
 
+  .bodytext{
+    width: 100%;
+  }
+
   #side_img {
     margin: auto;
     height: 40vh;
@@ -71,6 +73,7 @@
   /* Reviews section adjustments */
   #reviewflex {
     margin-top: 15px;
+    width: 80vw;
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
@@ -87,8 +90,8 @@
   }
 
   #requestlink {
-    width: 90%; /* Adjusted width for smaller screens */
-    font-size: 16px; /* Reduced font size for better fit */
+    width: 90%; 
+    font-size: 12px; 
   }
 }
 
@@ -215,7 +218,6 @@ body {
 /* Main Content - Body */
 .details {
   margin: 1.5vw;
-  padding: 0.6vw;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
