@@ -1,8 +1,8 @@
 
-# 🌱 EcoFuture - Sustainable Living Landing Page
+# 🛋️ Luxenest Interiors - Elevate Your Living with us
 
 
-A modern, responsive landing page for environmental organizations with smooth animations and interactive elements. Built with pure HTML & CSS.
+A modern, responsive landing page for Interior Designing Organisation with smooth animations and interactive elements. Built with pure HTML & CSS.
 
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-success)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
@@ -28,8 +28,7 @@ A modern, responsive landing page for environmental organizations with smooth an
 - **Media Queries** - Responsive design
 - **Git** - Version control
 
-## 🚀 Installation
+## 🚀 Clone the repository
 
-1. Clone the repository:
 ```bash
 git clone https://github.com/satishk67/Luxenest-Interiors.git
