@@ -34,15 +34,11 @@
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   /* Navbar adjustments */
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 10px 0;
-  }
 
   .navitems {
-    margin: 10px 0;
-    font-size: small; /* Adjusted font size for smaller screens */
+    margin: 4px;
+    font-size: small;
+    box-sizing: border-box;
   }
 
   /* Front section adjustments */
@@ -50,40 +46,38 @@
     flex-direction: column;
     height: auto;
     padding: 20px;
-    text-align: center; /* Center-align text */
+    text-align: center; 
   }
 
   .fronttext {
-    font-size: large; /* Reduced font size for smaller screens */
+    font-size: large; 
   }
 
   /* Main content adjustments */
   .details {
     flex-direction: column;
-    align-items: center;
-    padding-top: 2vh; /* Reduced padding for smaller screens */
-  }
-
-  .bodytext,
-  #side_img {
-    width: 90%; /* Adjusted width for smaller screens */
+    padding-top: 2vh; 
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   #side_img {
-    height: auto;
+    margin: auto;
+    height: 40vh;
+    width: 70vw;
     margin-top: 20px;
   }
 
   /* Reviews section adjustments */
   #reviewflex {
+    margin-top: 15px;
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
   }
 
-  .feedback {
-    width: 90%; /* Adjusted width for smaller screens */
-    font-size: small; /* Reduced font size for better readability */
+  .feedback { 
+    font-size: small; 
   }
 
   /* Social media section adjustments */
