@@ -32,14 +32,13 @@
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 10px 0;
-  }
 
   .navitems {
-    margin: 10px 0;
+    margin: 5px;
+  }
+
+  #logo{
+    border-radius: 100px;
   }
 
   .frontlook {
@@ -55,12 +54,7 @@
 
   .details {
     flex-direction: column;
-    align-items: center;
-  }
-
-  .bodytext,
-  #side_img {
-    width: 90vw;
+    padding: 5px;
   }
 
   #side_img {
@@ -74,18 +68,12 @@
     row-gap: 20px;
   }
 
-  .feedback {
-    width: 80vw;
-  }
-
   .socialmedia {
     flex-direction: column;
     row-gap: 20px;
   }
 
-  #requestlink {
-    width: 80vw;
-  }
+  
 }
 
 @media (max-width: 480px) {
