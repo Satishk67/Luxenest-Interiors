@@ -30,29 +30,91 @@
   }
 }
 
+/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navitems {
+    margin: 10px 0;
+  }
+
+  .frontlook {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .fronttext {
+    font-size: large;
+    text-align: center;
+  }
+
   .details {
     flex-direction: column;
     align-items: center;
   }
+
   .bodytext,
   #side_img {
-    width: 100vw;
+    width: 90vw;
   }
+
+  #side_img {
+    height: auto;
+    margin-top: 20px;
+  }
+
   #reviewflex {
     flex-direction: column;
+    align-items: center;
     row-gap: 20px;
-    margin: auto;
   }
-  .feedback{
-    width: 60vw;
+
+  .feedback {
+    width: 80vw;
+  }
+
+  .socialmedia {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #requestlink {
+    width: 80vw;
   }
 }
 
-@media (hover: none) {
-  #logo:hover,
-  .feedback:hover {
-    transform: none;
+@media (max-width: 480px) {
+  .fronttext {
+    font-size: medium;
+  }
+
+  .heading {
+    font-size: x-large;
+  }
+
+  .content {
+    font-size: small;
+  }
+
+  .reviewbar {
+    font-size: x-large;
+  }
+
+  .feedback {
+    font-size: x-small;
+  }
+
+  .handles {
+    font-size: 20px;
+  }
+
+  #requestlink {
+    font-size: 16px;
   }
 }
 
