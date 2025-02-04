@@ -11,11 +11,10 @@ A modern, responsive landing page for Interior Designing Organisation with smoot
 ## ✨ Features
 
 - 🚀 Sticky Navigation Bar with smooth scrolling
-- 🌈 Animated Hero Section with fade-up effects
+- 🌈 Animated front Section with fade-up effects
 - 📱 Fully Mobile-Responsive Design
-- 🎨 Modern Gradient Backgrounds
 - 💫 Hover Animations & Transitions
-- 🃏 Interactive Service Cards
+- 🃏 Interactive Review Cards
 - 📱 Mobile-First Approach
 - 🌟 CSS Keyframe Animations
 - 🧰 Clean & Organized Code
@@ -24,9 +23,13 @@ A modern, responsive landing page for Interior Designing Organisation with smoot
 
 - **HTML5** - Semantic markup
 - **CSS3** - Modern styling and animations
-- **CSS Grid** & **Flexbox** - Layout management
+- **CSS FlexBox** - Layout management
 - **Media Queries** - Responsive design
 - **Git** - Version control
+
+## Preview Link 
+- Hosted on Vercel
+- Link -> (https://luxenest-interiors.vercel.app/)
 
 ## 🚀 Clone the repository
 
