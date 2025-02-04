@@ -88,8 +88,7 @@
     row-gap: 20px;
   }
 
-  #requestlink {
-    width: 90%; 
+  #requestlink { 
     font-size: 12px; 
   }
 }
@@ -277,7 +276,7 @@ body {
   box-sizing: border-box;
   border: 2px solid var(--textcolor);
   background-color: rgba(244, 223, 223, 0.582);
-  border-radius: 1.5vw;
+  border-radius: 2vw;
   font-family: karla, serif;
   font-size: small;
   transition: transform 0.3s ease-in-out;
@@ -353,7 +352,6 @@ body {
   justify-content: center;
   font-weight: 600;
   font-size: 20px;
-  width: 40vw;
   margin: auto;
   transition: box-shadow 0.2s ease-in-out;
   margin-bottom: 25vh;
