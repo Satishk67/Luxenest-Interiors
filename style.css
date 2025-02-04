@@ -67,7 +67,7 @@
   }
 
   #reviewbox {
-    padding: 10px;
+    padding: 1px;
   }
   
 
@@ -265,7 +265,7 @@ body {
 }
 
 #reviewflex {
-  padding: 10px;
+  padding: 30px;
   display: flex;
   justify-content: center;
   column-gap: 5vw;
@@ -280,11 +280,11 @@ body {
   border-radius: 1.5vw;
   font-family: karla, serif;
   font-size: small;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .feedback:hover {
-  transform: scale(1.15);
+  transform: scale(1.175);
 }
 
 /* SOCIAL MEDIA */
