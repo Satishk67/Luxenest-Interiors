@@ -54,25 +54,28 @@
   /* Main content adjustments */
   .details {
     flex-direction: column;
+    column-gap: 20px;
+    align-items: center;
   }
 
   .bodytext{
     width: 100%;
   }
 
-  #side_img {
-    margin: auto;
-    height: 40vh;
-    width: 70vw;
-    margin-top: 20px;
+  .side_img {
+    display: none;
   }
 
-  /* Reviews section adjustments */
+  #reviewbox {
+    padding: 10px;
+  }
+  
+
   #reviewflex {
-    margin-top: 15px;
-    width: 80vw;
+    width: 82%;
+    padding: 10px;
     flex-direction: column;
-    align-items: center;
+    margin: auto;
     row-gap: 20px;
   }
 
@@ -80,7 +83,6 @@
     font-size: small; 
   }
 
-  /* Social media section adjustments */
   .socialmedia {
     flex-direction: column;
     row-gap: 20px;
@@ -191,7 +193,7 @@ body {
   width: 20vh;
   height: 20vh;
   border: 4px solid white;
-  border-radius: 10vw;
+  border-radius: 80%;
   cursor: pointer;
   /* animation: uptodown 1.5s cubic-bezier(0.63, 0.2, 0.4, 0.98) forwards; */
   transition: transform 0.5s ease-in;
@@ -214,16 +216,14 @@ body {
 
 /* Main Content - Body */
 .details {
-  margin: 1.5vw;
   box-sizing: border-box;
   display: flex;
+  column-gap: 5px;
   justify-content: space-between;
   padding-top: 9vh;
+  padding: 9vh 10px;
 }
 
-.bodytext {
-  width: 45vw;
-}
 
 .heading {
   font-family: poppins, serif;
@@ -237,13 +237,10 @@ body {
   font-family: poppins, serif;
   font-size: medium;
   color: var(--textcolor);
-
   animation: fadein 4s cubic-bezier(0.63, 0.2, 0.4, 0.98) forwards;
 }
 
-#side_img {
-  position: relative;
-  top: 50px;
+.side_img {
   width: 40vw;
   height: 62vh;
   border: 2px solid var(--textcolor);
@@ -254,12 +251,11 @@ body {
 /* REVIEWS */
 
 #reviewbox {
-  padding-top: 20vh;
+  padding-top: 100px;
 }
 
 .reviewbar {
   padding: 1.5vw;
-  height: 2.3vw;
   color: rgb(23, 5, 5);
   font-family: "Baloo Bhai 2", serif;
   font-size: xx-large;
@@ -269,10 +265,8 @@ body {
 }
 
 #reviewflex {
+  padding: 10px;
   display: flex;
-  margin-top: 3.2vw;
-  padding: 1.5vw;
-  box-sizing: border-box;
   justify-content: center;
   column-gap: 5vw;
 }
@@ -284,14 +278,13 @@ body {
   border: 2px solid var(--textcolor);
   background-color: rgba(244, 223, 223, 0.582);
   border-radius: 1.5vw;
-  width: 20vw;
   font-family: karla, serif;
   font-size: small;
   transition: transform 0.2s ease-in-out;
 }
 
 .feedback:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /* SOCIAL MEDIA */
@@ -380,4 +373,3 @@ body {
   font-size: large;
   font-weight: 700;
 }
-
